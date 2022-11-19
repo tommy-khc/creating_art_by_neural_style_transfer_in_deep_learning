@@ -32,10 +32,11 @@ Output </br>
 - tensorflow
 
 ## How to use?
-
-Choose two .jpg as input, one as content image, the other one as style image.
-Style image is the image whose style would be transfer to content image.
-Write the following code in main.ipynb.
+1. Clone or download this repo. </br>
+2. Choose two .jpg as input, one as content image, the other one as style image. </br>
+Style image is the image whose style would be transfer to content image. </br>
+3. Open main.ipynb in the folder </br>
+4. Write the following code in main.ipynb.
 ```sh
 content_path = '{path of content image}'
 style_path = '{path of style image}'
@@ -45,7 +46,7 @@ Image.fromarray(best_{output image name}).save(target_path)
 Image.fromarray(best_{output image name})
 show_results(best_{output image name}, '{path of content image}', '{path of style image}')
 ```
-It is a Jupyter Notebook. You can also read the code I wrote at block 76 to 78 as a demonstration.
+Remarks: It is a Jupyter Notebook. You can also read the code I wrote at block 76 to 78 as a demonstration.
 
 ## Credits
 Thanks for providing art pieces, Tsz Wai, my friend in Hong Kong.
