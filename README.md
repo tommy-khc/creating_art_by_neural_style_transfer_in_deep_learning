@@ -1,6 +1,6 @@
 # Creating Art by Neural Style Transfer in Deep Learning
 
-This project is applying the style of drawing from an art piece to another by deep learning algorithm in Python.
+This project is applying the style of drawing from one art piece to another by a deep learning algorithm in Python.
 
 ## Motivation
 This program is to visually have a taste of the power of deep leanring.
@@ -29,12 +29,12 @@ Output </br>
 ## Tech/framework used
 
 **Built with**
-- tensorflow
+- TensorFlow
 
-## How to use?
+## How to use it?
 1. Clone or download this repo. </br>
-2. Choose two .jpg as input, one as content image, the other one as style image. </br>
-Style image is the image whose style would be transfer to content image. </br>
+2. Choose two .jpg as input, one as a content image, and the other one as a style image. </br>
+Style image is the image whose style would be transferred to the content image. </br>
 3. Open main.ipynb in the folder </br>
 4. Write the following code in main.ipynb.
 ```sh
@@ -46,7 +46,7 @@ Image.fromarray(best_{output image name}).save(target_path)
 Image.fromarray(best_{output image name})
 show_results(best_{output image name}, '{path of content image}', '{path of style image}')
 ```
-Remarks: It is a Jupyter Notebook. You can also read the code I wrote at block 76 to 78 as a demonstration.
+Remarks: It is a Jupyter Notebook. You can also read the code I wrote in blocks 76 to 78 as a demonstration.
 
 ## Credits
 Thanks for providing art pieces, Tsz Wai, my friend in Hong Kong.
