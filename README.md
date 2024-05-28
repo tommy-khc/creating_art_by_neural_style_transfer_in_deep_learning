@@ -3,7 +3,7 @@
 This project is applying the style of drawing from one art piece to another by a deep learning algorithm in Python.
 
 ## Motivation
-When I was in the final year of university, I wanted to write a program to have a visually taste of the power of deep leanring.
+In 2019, I was in the final year of university and wanted to write a program to have a visually taste of the power of deep leanring.
 
 ## Features
 
